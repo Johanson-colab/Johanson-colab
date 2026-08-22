@@ -2,12 +2,12 @@
 
 # Weijiang Lv
 
-**Undergraduate · Software Engineering · Xidian University**
+**Undergraduate Researcher · Xidian University**
 
 [![Email](https://img.shields.io/badge/Email-lwj123888thu@gmail.com-blue)](mailto:lwj123888thu@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Johanson--colab-black?logo=github)](https://github.com/Johanson-colab)
 
-*Trustworthy LLM reasoning · CoT faithfulness · AI for research (AutoResearch)*
+*Trustworthy LLM Reasoning · Reliable AI Agents · AI for Research · Recursive Self-Improvement*
 
 </div>
 
@@ -15,36 +15,93 @@
 
 ## About Me
 
-I am a CS undergraduate at **Xidian University** . I work on **faithful chain-of-thought reasoning** in LLMs and **evaluation of LLM agents** in the research lifecycle. I am looking for research opportunities (e.g., RA) in NLP / trustworthy AI.
+I am an undergraduate student at **Xidian University**, working on **trustworthy reasoning in large language models** and **evaluation of LLM-based agents**.
+
+My research focuses on understanding **when and why LLMs and agents fail**, how such failures can be diagnosed from internal representations or execution trajectories, and how these signals can eventually support more reliable and self-improving AI systems.
+
+I am particularly interested in **AI for Research**, including scientific agents that can understand literature, formulate hypotheses, conduct experiments, interpret evidence, and iteratively refine their research strategies.
+
+I am open to research collaboration and RA opportunities in **NLP, trustworthy AI, LLM agents, and AI for Research**.
 
 ---
 
 ## Research Interests
 
-- Trustworthy reasoning in large language models  
-- Causal reasoning & CoT faithfulness 
-- Capability boundaries of LLM agents in automated research (AutoResearch)
+* **Trustworthy LLM Reasoning**
+
+  * Chain-of-Thought faithfulness
+  * Internal representation dynamics
+  * Reasoning reliability and failure diagnosis
+
+* **Reliable & Self-Improving Agents**
+
+  * Agent evaluation and capability boundaries
+  * Execution trajectory analysis
+  * Failure attribution and continual adaptation
+  * Recursive Self-Improvement (RSI)
+
+* **AI for Research**
+
+  * Scientific agents and AutoResearch
+  * Research judgment and research taste
+  * Hypothesis–experiment co-evolution
+  * Scientific information retrieval
 
 ---
 
 ## Publications
 
-| Venue | Paper |
-|-------|--------|
-| **ACL 2026 Findings** | **SPD-Faith Bench** — Diagnosing and improving CoT faithfulness in MLLMs; **SAGE** training-free framework *(W. Lv, Y. Feng, X. Xia, et al.)* |
-| *Submitted EMNLP 2026* | **GeoFaith** — Spatio-temporal dual view of faithful CoT; 20k pipeline, 8B detector, faithfulness-aware RL *(W. Lv, W. Zhao, J. Wang, X. Xia, et al.)* |
-| *Submitted EMNLP 2026* | **AARRI-Bench** — Benchmarking frontier LLMs & agentic harnesses across the research lifecycle *(J. Wang, **W. Lv\***, et al.)* |
-| **IJCV** | **DPDiff-AD** — Dual prototype-conditioned diffusion for multi-class unsupervised anomaly detection *(Y. Feng, Y. Li, W. Lv, et al.)* |
+* **SPD-Faith Bench** *(ACL Findings 2026)*
+  Diagnosing and improving Chain-of-Thought faithfulness in multimodal large language models; introduces the training-free **SAGE** framework.
+  *W. Lv, Y. Feng, X. Xia, et al.*
+
+* **GeoFaith** *(arXiv)*
+  Modeling faithful reasoning through latent geometry and entropy dynamics, with process-aware faithfulness detection and reinforcement learning.
+  *W. Lv, W. Zhao, J. Wang, X. Xia, et al.*
+
+* **Act As a Real Researcher (AARRI-Bench)** *(arXiv)*
+  Evaluating frontier LLMs and agentic harnesses on realistic research-intern tasks, with an emphasis on **research judgment beyond task execution**.
+  *J. Wang, **W. Lv***, et al.*
+
+* **DPDiff-AD** *(IJCV)*
+  Dual prototype-conditioned diffusion for multi-class unsupervised anomaly detection.
+  *Y. Feng, Y. Li, W. Lv, et al.*
 
 ---
 
-## Experience
+## Research Experience
 
-**Research Intern** · USTC · Advisor: Prof. **Xiaobo Xia**  
+**Research Intern** · University of Science and Technology of China
+Advisor: Prof. **Xiaobo Xia**
 *Sep. 2025 – May 2026* · Hefei, China
 
-**Research Intern** · Xidian University · Advisor: Prof. **Bo Chen**  
+**Research Intern** · Xidian University
+Advisor: Prof. **Bo Chen**
 *Dec. 2024 – Jul. 2025* · Xi’an, China
+
+---
+
+## Current Research Direction
+
+### Co-Evolving Hypothesis and Experiments towards AI Scientist
+
+I am currently exploring how AI research agents can move beyond a static **idea-to-experiment pipeline** toward an **evidence-driven scientific reasoning loop**.
+
+A central limitation of existing AI Scientist systems is that hypothesis generation and experiment execution are often treated as separate stages: an idea is proposed first, followed by experiments that mainly serve to implement or validate it. In real research, however, hypotheses and experiments continuously shape each other.
+
+I am exploring a **hypothesis–experiment co-evolution framework**:
+
+**Hypothesis → Experiment Design → Execution → Evidence → Hypothesis Revision → Next Experiment**
+
+The goal is to enable a research agent to:
+
+* revise hypotheses according to experimental evidence rather than rigidly executing an initial idea;
+* design the next experiment based on uncertainty, previous failures, and expected information gain;
+* distinguish genuine scientific progress from superficial metric improvement;
+* accumulate useful research experience across iterative experimentation;
+* gradually develop stronger **scientific decision-making and research taste**.
+
+More broadly, I am interested in whether such scientific interaction trajectories can eventually support **self-improving research agents**—agents that not only conduct research, but also learn from their own failures and experimental evidence to improve how they conduct future research.
 
 ---
 
@@ -54,38 +111,43 @@ I am a CS undergraduate at **Xidian University** . I work on **faithful chain-of
 
 `Python` · `FastAPI` · `SQLite` · `Multi-Agent LLM`
 
-- Ingested **ICML / ICLR** JSONL corpora with keyword filtering; CLI pipelines: **ingest → evolve → discover → compose**
-- Built **methodology evolution graphs** (extends, improves, replaces) and an interactive web UI (papers, timeline, graph)
-- Domain-scoped recall and LLM-driven **research idea generation** with multi-reviewer story drafting
+An agentic literature-research system that turns large-scale paper collections into structured research trajectories and candidate research directions.
+
+* Built end-to-end pipelines for **ingestion → evolution modeling → gap discovery → research-story composition**
+* Constructed **methodology evolution graphs** with relations such as *extends*, *improves*, and *replaces*
+* Developed domain-scoped retrieval and multi-agent extraction for large conference corpora
+* Integrated **research gap discovery, idea generation, multi-agent review, and iterative story refinement**
+* Built an interactive web interface for browsing papers, timelines, and research evolution graphs
 
 ---
 
 ## Awards
 
-- **ICM Finalist (Top 1%)** · International Contest in Mathematical Modeling · Feb. 2026  
-- **Excellent Award** · HarmonyOS Agent Competition (Huawei × Nanjing University) · May 2025  
-- **First Prize** · National College Student Mathematics Competition · Dec. 2024  
+* **Finalist (Top 1%)** · International Contest in Mathematical Modeling · Feb. 2026
+* **Excellent Award** · HarmonyOS Agent Competition, Huawei × Nanjing University · May 2025
+* **First Prize** · National College Student Mathematics Competition · Dec. 2024
 
 ---
 
 ## Tech Stack
 
-**Languages:** Python, C/C++, Java, SQL, JavaScript/TypeScript  
+**Languages:** Python, C/C++, Java, SQL, JavaScript / TypeScript
 
-**AI / ML:** PyTorch, scikit-learn, Hugging Face Transformers, LLM APIs, RAG, embeddings, multi-agent workflows  
+**AI / ML:** PyTorch, scikit-learn, Hugging Face Transformers, LLM APIs, RAG, embeddings, multi-agent workflows
 
-**Tools:** FastAPI, Flask, React, Git, Docker, Linux · SQLite, PostgreSQL, pandas, NumPy, REST APIs  
+**Engineering:** FastAPI, Flask, React, Git, Docker, Linux, SQLite, PostgreSQL, pandas, NumPy, REST APIs
 
 ---
 
 ## Contact
 
-- 📧 lwj123888thu@gmail.com · m13633870258@163.com  
-- 🔗 [GitHub](https://github.com/Johanson-colab) · [ScholarFlow](https://github.com/Johanson-colab/ScholarFlow)
+* 📧 [lwj123888thu@gmail.com](mailto:lwj123888thu@gmail.com)
+* 📧 [m13633870258@163.com](mailto:m13633870258@163.com)
+* 🔗 [GitHub](https://github.com/Johanson-colab)
+* 🔗 [ScholarFlow](https://github.com/Johanson-colab/ScholarFlow)
 
 ---
 
 <p align="center">
-  <i>Open to research collaboration and RA opportunities — feel free to reach out.</i>
+  <i>Open to research collaboration and RA opportunities.</i>
 </p>
-
