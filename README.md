@@ -2,7 +2,10 @@
 
 # Weijiang Lv
 
-**Undergraduate Researcher · Xidian University**
+**Master (incoming) · Beihang University**
+
+**Undergraduate · Xidian University**
+
 
 [![Email](https://img.shields.io/badge/Email-lwj123888thu@gmail.com-blue)](mailto:lwj123888thu@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Johanson--colab-black?logo=github)](https://github.com/Johanson-colab)
