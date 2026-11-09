@@ -15,13 +15,11 @@
 
 ## About Me
 
-I am an undergraduate student at **Xidian University**, working on **trustworthy reasoning in large language models** and **evaluation of LLM-based agents**.
+I am an undergraduate student at **Xidian University** and an incoming master's student at **Beihang University**, focusing on **LLM Agents** and **Post-training**.
 
 My research focuses on understanding **when and why LLMs and agents fail**, how such failures can be diagnosed from internal representations or execution trajectories, and how these signals can eventually support more reliable and self-improving AI systems.
 
 I am particularly interested in **AI for Research**, including scientific agents that can understand literature, formulate hypotheses, conduct experiments, interpret evidence, and iteratively refine their research strategies.
-
-I am open to research collaboration and RA opportunities in **NLP, trustworthy AI, LLM agents, and AI for Research**.
 
 ---
 
@@ -56,7 +54,7 @@ I am open to research collaboration and RA opportunities in **NLP, trustworthy A
   *W. Lv, Y. Feng, X. Xia, et al.*
 
 * **GeoFaith** *(arXiv)*
-  Modeling faithful reasoning through latent geometry and entropy dynamics, with process-aware faithfulness detection and reinforcement learning.
+  Learning Faithful Reasoning Processes with Spatio-Temporal Latent Dynamics for Large Language Models.
   *W. Lv, W. Zhao, J. Wang, X. Xia, et al.*
 
 * **Act As a Real Researcher (AARRI-Bench)** *(arXiv)*
@@ -81,43 +79,17 @@ Advisor: Prof. **Bo Chen**
 
 ---
 
-## Current Research Direction
-
-### Co-Evolving Hypothesis and Experiments towards AI Scientist
-
-I am currently exploring how AI research agents can move beyond a static **idea-to-experiment pipeline** toward an **evidence-driven scientific reasoning loop**.
-
-A central limitation of existing AI Scientist systems is that hypothesis generation and experiment execution are often treated as separate stages: an idea is proposed first, followed by experiments that mainly serve to implement or validate it. In real research, however, hypotheses and experiments continuously shape each other.
-
-I am exploring a **hypothesis–experiment co-evolution framework**:
-
-**Hypothesis → Experiment Design → Execution → Evidence → Hypothesis Revision → Next Experiment**
-
-The goal is to enable a research agent to:
-
-* revise hypotheses according to experimental evidence rather than rigidly executing an initial idea;
-* design the next experiment based on uncertainty, previous failures, and expected information gain;
-* distinguish genuine scientific progress from superficial metric improvement;
-* accumulate useful research experience across iterative experimentation;
-* gradually develop stronger **scientific decision-making and research taste**.
-
-More broadly, I am interested in whether such scientific interaction trajectories can eventually support **self-improving research agents**—agents that not only conduct research, but also learn from their own failures and experimental evidence to improve how they conduct future research.
-
----
-
 ## Selected Project
 
-### [ScholarFlow](https://github.com/Johanson-colab/ScholarFlow)
+### [Archimedes](https://github.com/Johanson-colab/Archimedes)
 
-`Python` · `FastAPI` · `SQLite` · `Multi-Agent LLM`
+TypeScript · React · Electron · SQLite · LLM Agents
 
-An agentic literature-research system that turns large-scale paper collections into structured research trajectories and candidate research directions.
-
-* Built end-to-end pipelines for **ingestion → evolution modeling → gap discovery → research-story composition**
-* Constructed **methodology evolution graphs** with relations such as *extends*, *improves*, and *replaces*
-* Developed domain-scoped retrieval and multi-agent extraction for large conference corpora
-* Integrated **research gap discovery, idea generation, multi-agent review, and iterative story refinement**
-* Built an interactive web interface for browsing papers, timelines, and research evolution graphs
+A local-first research-agent workspace for building customizable research tools and making scientific workflows traceable.
+- Designed Research Apps to combine Skills, MCP tools, models, and agent backends into customizable research workflows.
+- Built an integrated workspace for literature discovery, paper reading, reproduction, data analysis, and writing.
+- Developing experiment lineage and evidence provenance to connect research questions, code, data, results, and conclusions.
+- Exploring long-term research memory and team collaboration to preserve experience and support shared research projects.
 
 ---
 
@@ -144,7 +116,7 @@ An agentic literature-research system that turns large-scale paper collections i
 * 📧 [lwj123888thu@gmail.com](mailto:lwj123888thu@gmail.com)
 * 📧 [m13633870258@163.com](mailto:m13633870258@163.com)
 * 🔗 [GitHub](https://github.com/Johanson-colab)
-* 🔗 [ScholarFlow](https://github.com/Johanson-colab/ScholarFlow)
+* 🔗 [Archimedes](https://github.com/Johanson-colab/Archimedes)
 
 ---
 
